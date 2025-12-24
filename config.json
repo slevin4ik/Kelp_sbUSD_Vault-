@@ -1,0 +1,24 @@
+{
+	"rpc_urls": [
+		"https://eth.llamarpc.com",
+		"https://1rpc.io/eth",
+		"https://eth-mainnet.g.alchemy.com/v2/demo"
+	],
+	"db": {
+		"host": "localhost",
+		"port": 5433,
+		"dbname": "postgres",
+		"user": "postgres",
+		"password": "postgres"
+	},
+	"load_history_hours": 23,
+	"times_in_a_hour": 1,
+	"vaults": [
+		{
+			"address": "0x8ECC0B419dfe3AE197BC96f2a03636b5E1BE91db",
+			"name": "Kelp sbUSD Vault",
+			"symbol": "sbUSD",
+			"chain_id": 1
+		}
+	]
+}
